@@ -2,13 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run C++ (tanpa debug)",
+      "name": "Run C++",
       "type": "cppvsdbg",
       "request": "launch",
       "program": "${workspaceFolder}\\output\\${fileBasenameNoExtension}.exe",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}\\output",
       "console": "integratedTerminal"
     }
   ]
